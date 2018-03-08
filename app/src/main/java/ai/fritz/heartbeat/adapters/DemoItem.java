@@ -1,6 +1,5 @@
 package ai.fritz.heartbeat.adapters;
 
-
 import android.view.View;
 
 /**
@@ -12,7 +11,7 @@ public class DemoItem {
     private String description;
     private View.OnClickListener onClickListener;
 
-    public DemoItem(String title, String description, View.OnClickListener clickListener){
+    public DemoItem(String title, String description, View.OnClickListener clickListener) {
         this.title = title;
         this.description = description;
         this.onClickListener = clickListener;

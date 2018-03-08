@@ -20,6 +20,9 @@ import ai.fritz.heartbeat.utils.Navigation;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+/**
+ * The primary activity that shows the different model demos.
+ */
 public class MainActivity extends AppCompatActivity {
 
     private Logger logger = Logger.getLogger(this.getClass().getName());

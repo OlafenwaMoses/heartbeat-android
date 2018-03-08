@@ -7,17 +7,11 @@
 
     <include layout="@layout/app_bar" />
 
-    <FrameLayout
-        android:id="@+id/container"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/demo_list_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/demo_list_view"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="?attr/actionBarSize"
-            android:scrollbars="vertical" />
-    </FrameLayout>
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:scrollbars="vertical" />
 
 </android.support.constraint.ConstraintLayout>

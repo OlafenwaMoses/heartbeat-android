@@ -193,13 +193,6 @@ public abstract class ImageClassifier {
         FileChannel fileChannel = inputStream.getChannel();
         long startOffset = fileDescriptor.getStartOffset();
         long declaredLength = fileDescriptor.getDeclaredLength();
-//        File appDir = activity.getFilesDir();
-//        File tfLiteFile = new File(appDir, getModelPath());
-//        Logger.getLogger(getClass().getSimpleName()).info("MODEL TO LOAD: " + tfLiteFile.getAbsolutePath());
-//        FileInputStream inputStream = new FileInputStream(tfLiteFile);
-//        FileChannel fileChannel = inputStream.getChannel();
-//        long startOffset = 0;
-//        long declaredLength = tfLiteFile.length();
         return fileChannel.map(FileChannel.MapMode.READ_ONLY, startOffset, declaredLength);
     }
 

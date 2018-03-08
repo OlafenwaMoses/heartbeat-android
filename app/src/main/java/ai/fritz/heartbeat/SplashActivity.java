@@ -5,7 +5,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
 /**
- * The splash activity is the entry point to the rest of the app.
+ * The splash activity is the entry point for the rest of the app.
  */
 public class SplashActivity extends AppCompatActivity {
 

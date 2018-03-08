@@ -5,11 +5,14 @@ import android.content.Intent;
 
 import ai.fritz.heartbeat.CameraActivity;
 
-
+/**
+ * Navigation is a helper class for common links throughout the app.
+ */
 public class Navigation {
 
     /**
      * Goes to the Mobile Next Activity.
+     *
      * @param context
      */
     public static void goToMobileNet(Context context) {
