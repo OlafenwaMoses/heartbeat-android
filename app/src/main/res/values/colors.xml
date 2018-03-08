@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#111</color>
+    <color name="colorPrimary">#000</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="text">#fff</color>
-    <color name="control_background">#fff</color>
+    <color name="textColorPrimary">#fff</color>
     <color name="divider">#aaa</color>
+    <color name="appBarColor">#000</color>
 </resources>

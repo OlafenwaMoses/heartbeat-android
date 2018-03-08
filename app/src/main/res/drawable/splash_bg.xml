@@ -4,7 +4,7 @@
     <item android:drawable="@color/colorPrimary" />
 
     <item>
-        <bitmap android:src="@drawable/heartbeat_logo_01"
+        <bitmap android:src="@drawable/heartbeat_logo"
             android:gravity="center" />
 
     </item>

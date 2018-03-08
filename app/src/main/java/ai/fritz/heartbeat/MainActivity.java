@@ -27,40 +27,45 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.demo_list_view)
     RecyclerView recyclerView;
 
-    @BindView(R.id.my_toolbar)
-    Toolbar myToolbar;
+    @BindView(R.id.app_toolbar)
+    Toolbar appBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setTitle(R.string.demo_title);
         ButterKnife.bind(this);
 
-        setSupportActionBar(myToolbar);
+        // customize the action bar
+        setSupportActionBar(appBar);
 
+        // Setup the recycler view
         recyclerView.setHasFixedSize(true);
-        // use a linear layout manager
         LinearLayoutManager rvLinearLayoutMgr = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(rvLinearLayoutMgr);
 
+        // Add a divider
         SeparatorDecoration decoration = new SeparatorDecoration(this, Color.GRAY, 1);
         recyclerView.addItemDecoration(decoration);
 
+        // Add the adapter
         DemoAdapter adapter = new DemoAdapter(getDemoItems());
         recyclerView.setAdapter(adapter);
         recyclerView.setClickable(true);
     }
 
     private List<DemoItem> getDemoItems() {
+        // Add different demo items here
         List<DemoItem> demoItems = Lists.newArrayList(
                 new DemoItem(
-                        "INCEPTION",
-                        "Detect objects in real-time using the camera. A nice upgrade from Not-Hotdog",
+                        getString(R.string.mobile_net_title),
+                        getString(R.string.mobile_net_description),
                         new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {
-                                logger.info("GO TO INCEPTION");
-                                Navigation.goToInception(v.getContext());
+                                logger.info("GO TO MOBILE NET");
+                                Navigation.goToMobileNet(v.getContext());
                             }
                         })
         );
