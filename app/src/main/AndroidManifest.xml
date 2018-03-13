@@ -24,6 +24,7 @@
         </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".CameraActivity" android:parentActivityName=".MainActivity" />
+        <activity android:name=".MnistActivity" android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>

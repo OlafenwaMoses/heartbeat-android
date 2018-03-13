@@ -62,6 +62,16 @@ public class MainActivity extends AppCompatActivity {
         // Add different demo items here
         List<DemoItem> demoItems = Lists.newArrayList(
                 new DemoItem(
+                        getString(R.string.mnist_title),
+                        getString(R.string.mnist_description),
+                        new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                logger.info("GO TO MNIST");
+                                Navigation.goToMNIST(v.getContext());
+                            }
+                        }),
+                new DemoItem(
                         getString(R.string.mobile_net_title),
                         getString(R.string.mobile_net_description),
                         new View.OnClickListener() {
