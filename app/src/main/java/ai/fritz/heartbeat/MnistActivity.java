@@ -1,9 +1,5 @@
 package ai.fritz.heartbeat;
 
-/**
- * Created by erichsiao on 3/13/18.
- */
-
 /*
    Copyright 2016 Narrative Nights Inc. All Rights Reserved.
 

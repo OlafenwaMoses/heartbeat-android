@@ -15,9 +15,6 @@ import java.nio.ByteOrder;
 import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
 
-/**
- * Created by erichsiao on 3/13/18.
- */
 
 public class MnistClassifier {
     private final String TAG = this.getClass().getSimpleName();

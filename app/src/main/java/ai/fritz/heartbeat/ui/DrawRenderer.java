@@ -4,9 +4,6 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 
-/**
- * Created by erichsiao on 3/13/18.
- */
 
 public class DrawRenderer {
     /**
