@@ -6,7 +6,7 @@
     <string name="mobile_net_description">Detect objects in real-time using the camera. A nice upgrade from Not-Hotdog</string>
 
     <string name="mnist_title">MNIST</string>
-    <string name="mnist_description">Classic MNIST handwritting recognizer for digits 0&#8211;9</string>
+    <string name="mnist_description">Classic MNIST handwriting recognizer for digits 0&#8211;9</string>
     <string name="picture">Picture</string>
     <string name="description_info">Info</string>
     <string name="request_permission">This sample needs camera permission.</string>
