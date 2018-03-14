@@ -5,4 +5,5 @@
     <color name="textColorPrimary">#fff</color>
     <color name="divider">#aaa</color>
     <color name="appBarColor">#000</color>
+    <color name="lighter_black_bg">#666</color>
 </resources>
