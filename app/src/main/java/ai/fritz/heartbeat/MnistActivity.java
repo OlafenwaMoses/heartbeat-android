@@ -109,7 +109,7 @@ public class MnistActivity extends AppCompatActivity {
     private void onDetectClicked() {
         int digit = mnistClassifier.classify(mDrawView.getDrawnBitmap());
         if (digit >= 0) {
-            Log.i(TAG, "Found Digit = " + digit);
+            Log.d(TAG, "Found Digit = " + digit);
             mResultText.setText(getString(R.string.found_digits, String.valueOf(digit)));
         } else {
             mResultText.setText(getString(R.string.not_detected));
