@@ -9,11 +9,11 @@
     android:paddingTop="@dimen/margin_md"
     android:paddingBottom="@dimen/margin_md"
     android:orientation="vertical"
-    tools:context="ai.fritz.heartbeat.MnistActivity">
+    tools:context="ai.fritz.app.MnistActivity">
 
     <include layout="@layout/app_bar" />
 
-    <ai.fritz.heartbeat.ui.DrawView
+    <ai.fritz.app.ui.DrawView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:id="@+id/view_draw"

@@ -1,13 +1,18 @@
-# Heartbeat (Android)
-An example project to showcase different tflite models. Currently we have MNIST and Moble Net. For details on how to convert TF models into TFLite, check out this page https://fritzlabs.atlassian.net/wiki/spaces/ENG/pages/139034625/TensorFlow+Lite+Conversion
+Fritz Heartbeat App
+===================
 
-Setup:
+[ ![Codeship Status for fritzlabs/fritz-sdk-android](https://app.codeship.com/projects/c74152e0-65d1-0136-2d69-32e87736c6c6/status?branch=master)](https://app.codeship.com/projects/297281)
+[![Twitter](https://img.shields.io/badge/twitter-@fritzlabs-blue.svg?style=flat)](http://twitter.com/fritzlabs)
 
-- Download Android Studios | https://developer.android.com/studio/index.html
-- Open it up and download all the stuff they tell you to (Android SDK, etc)
-- Go to File > Import Project and select this directory, it will automatically build the gradle file.
+Fritz is a free end-to-end platform that allows you to create machine-learning-powered features in your mobile apps with ease. Build unique, compelling user experiences using ML technology like image labeling, object detection, and more.
 
-I'd also highly recommend downloading Genymotion for emulators (especially if you don't have an Android test phone)
-- Create an account (it's free) https://www.genymotion.com/ and download the .dmg
-- For it to work, you need virtualbox (https://www.virtualbox.org/wiki/Downloads)
-- Open up Genymotion and add a device by clicking the "+ Add" button. The rest is pretty straightforward.
+## Installation
+
+[Android SDK instructions](https://docs.fritz.ai/get-started.html#android)
+
+## Documentation
+
+[Fritz Docs Home](https://docs.fritz.ai/)
+
+[Android SDK Reference Docs](https://docs.fritz.ai/android/latest/index.html)
+

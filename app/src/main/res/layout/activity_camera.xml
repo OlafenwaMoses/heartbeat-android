@@ -17,8 +17,7 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="ai.fritz.heartbeat.CameraActivity">
+    android:layout_height="match_parent">
 
     <include layout="@layout/app_bar" />
 
@@ -26,5 +25,5 @@
         android:id="@+id/camera_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="ai.fritz.heartbeat.CameraActivity" />
+        tools:context="ai.fritz.app.DetectorCameraBaseActivity" />
 </android.support.constraint.ConstraintLayout>
