@@ -1,5 +1,5 @@
-Fritz Android SDK
-==================
+Fritz Heartbeat App
+===================
 
 [ ![Codeship Status for fritzlabs/fritz-sdk-android](https://app.codeship.com/projects/c74152e0-65d1-0136-2d69-32e87736c6c6/status?branch=master)](https://app.codeship.com/projects/297281)
 [![Twitter](https://img.shields.io/badge/twitter-@fritzlabs-blue.svg?style=flat)](http://twitter.com/fritzlabs)
@@ -15,3 +15,4 @@ Fritz is a free end-to-end platform that allows you to create machine-learning-p
 [Fritz Docs Home](https://docs.fritz.ai/)
 
 [Android SDK Reference Docs](https://docs.fritz.ai/android/latest/index.html)
+
