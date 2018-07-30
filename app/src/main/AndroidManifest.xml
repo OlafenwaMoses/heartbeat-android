@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ai.fritz.heartbeat">
-    <uses-permission android:name="android.permission.INTERNET"/>
+    package="ai.fritz.app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
@@ -12,9 +15,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:largeHeap="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".SplashActivity" android:theme="@style/SplashTheme">
+        <activity
+            android:name="ai.fritz.app.SplashActivity"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -22,9 +28,34 @@
             </intent-filter>
 
         </activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".CameraActivity" android:parentActivityName=".MainActivity" />
-        <activity android:name=".MnistActivity" android:parentActivityName=".MainActivity" />
+        <activity android:name="ai.fritz.app.MainActivity" />
+        <activity
+            android:name="ai.fritz.app.LiveVideoActivity"
+            android:parentActivityName="ai.fritz.app.MainActivity" />
+        <activity
+            android:name="ai.fritz.app.MnistActivity"
+            android:parentActivityName="ai.fritz.app.MainActivity" />
+        <activity
+            android:name="ai.fritz.app.VisionActivity"
+            android:parentActivityName="ai.fritz.app.MainActivity" />
+        <activity
+            android:name="ai.fritz.app.CustomTFMobileActivity"
+            android:parentActivityName="ai.fritz.app.MainActivity" />
+        <activity
+            android:name="ai.fritz.app.CustomTFLiteActivity"
+            android:parentActivityName="ai.fritz.app.MainActivity" />
+        <activity
+            android:name="ai.fritz.app.DetectorActivity"
+            android:parentActivityName="ai.fritz.app.MainActivity" />
+
+        <meta-data
+            android:name="fritz_api_key"
+            android:value="@string/fritz_api_key" />
+        <service
+            android:name="ai.fritz.core.FritzJob"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
     </application>
 
 </manifest>

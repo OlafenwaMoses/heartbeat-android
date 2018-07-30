@@ -1,9 +1,20 @@
 <resources>
     <string name="app_name">Heartbeat</string>
     <!-- In the MainActivity -->
-    <string name="demo_title">DEMOS</string>
-    <string name="mobile_net_title">MOBILE NET</string>
-    <string name="mobile_net_description">Detect objects in real-time using the camera. A nice upgrade from Not-Hotdog</string>
+    <string name="demo_title">MODELS</string>
+
+    <string name="fritz_vision_title">Image Labeling Feature</string>
+    <string name="fritz_vision_description">Label a still image.</string>
+    <string name="fritz_vision_description_live_video">Label video frames</string>
+
+    <string name="fritz_customtfmobile_title">Custom TFMobile Model</string>
+    <string name="fritz_customtfmobile_description">Uses a TFMobile model to label images.</string>
+    
+    <string name="fritz_customtflite_title">Custom TFLite Model</string>
+    <string name="fritz_customtflite_description">Uses a TFLite model to identify handwritten numbers.</string>
+    
+    <string name="fritz_object_detection_title">Object Detection Feature</string>
+    <string name="fritz_object_detection_description">Detect objects in an image and label them</string>
 
     <string name="mnist_title">MNIST</string>
     <string name="mnist_description">Classic MNIST handwriting recognizer for digits 0&#8211;9</string>
@@ -15,6 +26,7 @@
     <string name="toggle_turn_off">NN:Off</string>
     <string name="toggle">Use NNAPI</string>
     <string name="clear">Clear</string>
+    <string name="select_photo">Select Photo</string>
     <string name="detect">Detect</string>
     <string name="not_detected">Not detected</string>
     <string name="found_digits">Detected = %1$s</string>
